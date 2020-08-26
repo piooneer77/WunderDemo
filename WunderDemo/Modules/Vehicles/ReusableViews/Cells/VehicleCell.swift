@@ -26,6 +26,12 @@ class VehicleCell: UITableViewCell, ClassIdentifiable, NibIdentifiable, Disposab
     var disposeBag: DisposeBag = DisposeBag()
     var viewModel: VehicleCellViewModel?
     
+    // MARK: - life cycle methods
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        selectionStyle = .none
+    }
+    
     // MARK: - BindableProtocol methods
     func bindViewModel() {
         viewModel?.name.asDriver()

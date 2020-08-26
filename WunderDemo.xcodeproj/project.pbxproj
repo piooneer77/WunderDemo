@@ -35,6 +35,8 @@
 		19FA9C0824F6800400D9B54A /* VehiclesMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9C0624F6800400D9B54A /* VehiclesMapController.swift */; };
 		19FA9C0924F6800400D9B54A /* VehiclesMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19FA9C0724F6800400D9B54A /* VehiclesMapController.xib */; };
 		19FA9C0B24F6801A00D9B54A /* VehiclesMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9C0A24F6801A00D9B54A /* VehiclesMapViewModel.swift */; };
+		19FA9C0F24F699F200D9B54A /* VehiclesMapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9C0E24F699F200D9B54A /* VehiclesMapCoordinator.swift */; };
+		19FA9C1124F6AB3D00D9B54A /* VehicleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9C1024F6AB3D00D9B54A /* VehicleAnnotation.swift */; };
 		A8E3AE7FACCF74F18CA6869C /* Pods_WunderDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1914957A17EA4DA9DCFB9F07 /* Pods_WunderDemoTests.framework */; };
 		FA90D2A81B07F54E7897C876 /* Pods_WunderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4A852CB1F061125842D2EA /* Pods_WunderDemo.framework */; };
 /* End PBXBuildFile section */
@@ -84,6 +86,8 @@
 		19FA9C0624F6800400D9B54A /* VehiclesMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesMapController.swift; sourceTree = "<group>"; };
 		19FA9C0724F6800400D9B54A /* VehiclesMapController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehiclesMapController.xib; sourceTree = "<group>"; };
 		19FA9C0A24F6801A00D9B54A /* VehiclesMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesMapViewModel.swift; sourceTree = "<group>"; };
+		19FA9C0E24F699F200D9B54A /* VehiclesMapCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesMapCoordinator.swift; sourceTree = "<group>"; };
+		19FA9C1024F6AB3D00D9B54A /* VehicleAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleAnnotation.swift; sourceTree = "<group>"; };
 		2B2300640963D84438056FAA /* Pods-WunderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderDemo.release.xcconfig"; path = "Target Support Files/Pods-WunderDemo/Pods-WunderDemo.release.xcconfig"; sourceTree = "<group>"; };
 		76D9A8D525479ACA3CE9E86E /* Pods-WunderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderDemo.debug.xcconfig"; path = "Target Support Files/Pods-WunderDemo/Pods-WunderDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BF4A852CB1F061125842D2EA /* Pods_WunderDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,13 +137,13 @@
 		19FA9BAC24F5A0DC00D9B54A /* WunderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				19FA9BDC24F5A60200D9B54A /* Modules */,
+				19FA9BD824F5A4B300D9B54A /* Services */,
+				19FA9BCF24F5A2B100D9B54A /* Models */,
 				19FA9C0224F662B500D9B54A /* Extentions */,
 				19FA9BFD24F65C7700D9B54A /* Protocols */,
 				19FA9BEF24F5AF2E00D9B54A /* Utilities */,
 				19FA9BE524F5A9A800D9B54A /* AppCoordinator */,
-				19FA9BDC24F5A60200D9B54A /* Modules */,
-				19FA9BD824F5A4B300D9B54A /* Services */,
-				19FA9BCF24F5A2B100D9B54A /* Models */,
 				19FA9BAD24F5A0DC00D9B54A /* AppDelegate.swift */,
 				19FA9BAF24F5A0DC00D9B54A /* SceneDelegate.swift */,
 				19FA9BB624F5A0E100D9B54A /* Assets.xcassets */,
@@ -188,10 +192,10 @@
 		19FA9BDD24F5A63700D9B54A /* Vehicles */ = {
 			isa = PBXGroup;
 			children = (
+				19FA9BDE24F5A64100D9B54A /* Services */,
+				19FA9BE824F5AC0900D9B54A /* VehiclesList */,
 				19FA9C0524F67FDC00D9B54A /* VehiclesMap */,
 				19FA9BF424F5AF8B00D9B54A /* ReusableViews */,
-				19FA9BE824F5AC0900D9B54A /* VehiclesList */,
-				19FA9BDE24F5A64100D9B54A /* Services */,
 			);
 			path = Vehicles;
 			sourceTree = "<group>";
@@ -210,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				19FA9BE624F5A9C300D9B54A /* AppCoordinator.swift */,
+				19FA9C0E24F699F200D9B54A /* VehiclesMapCoordinator.swift */,
 			);
 			path = AppCoordinator;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 		19FA9BF424F5AF8B00D9B54A /* ReusableViews */ = {
 			isa = PBXGroup;
 			children = (
+				19FA9C0C24F696C400D9B54A /* Views */,
 				19FA9BF524F5AF9700D9B54A /* Cells */,
 			);
 			path = ReusableViews;
@@ -276,6 +282,22 @@
 				19FA9C0A24F6801A00D9B54A /* VehiclesMapViewModel.swift */,
 			);
 			path = VehiclesMap;
+			sourceTree = "<group>";
+		};
+		19FA9C0C24F696C400D9B54A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9C0D24F696CA00D9B54A /* VehicleAnnotation */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		19FA9C0D24F696CA00D9B54A /* VehicleAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9C1024F6AB3D00D9B54A /* VehicleAnnotation.swift */,
+			);
+			path = VehicleAnnotation;
 			sourceTree = "<group>";
 		};
 		62A83E39BD3D8EA4E998F980 /* Frameworks */ = {
@@ -487,7 +509,9 @@
 				19FA9BF324F5AF5A00D9B54A /* ClassIdentifiable.swift in Sources */,
 				19FA9BD724F5A3D100D9B54A /* VehicleResponse.swift in Sources */,
 				19FA9BD524F5A36900D9B54A /* Vehicle.swift in Sources */,
+				19FA9C0F24F699F200D9B54A /* VehiclesMapCoordinator.swift in Sources */,
 				19FA9BEA24F5AC9600D9B54A /* VehiclesListViewModel.swift in Sources */,
+				19FA9C1124F6AB3D00D9B54A /* VehicleAnnotation.swift in Sources */,
 				19FA9BD324F5A33400D9B54A /* EngineType.swift in Sources */,
 				19FA9BE024F5A65B00D9B54A /* VehicleBaseService.swift in Sources */,
 			);

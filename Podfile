@@ -10,7 +10,9 @@ target 'WunderDemo' do
     pod 'RxSwift', '~> 5'
     pod 'RxCocoa', '~> 5'
     pod 'RxDataSources'
-	
+    pod "RxMKMapView"
+    pod 'RealmSwift'
+    
   target 'WunderDemoTests' do
     inherit! :search_paths
     # Pods for testing

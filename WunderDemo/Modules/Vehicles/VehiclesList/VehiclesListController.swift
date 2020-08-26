@@ -18,6 +18,7 @@ class VehiclesListController: UIViewController, DisposableProtocol, BindableProt
     
     // MARK: IBOutlets
     @IBOutlet weak var tableView: UITableView!
+    private var mapBarButton: UIBarButtonItem?
     
     // MARK: - Properties
     let disposeBag: DisposeBag = DisposeBag()
@@ -45,12 +46,12 @@ class VehiclesListController: UIViewController, DisposableProtocol, BindableProt
     // MARK: - private methods
     private func setupNavigationBar() {
         title = viewModel?.pageTitle
+        // TODO: I would put a map image here instead of the search icon
+        mapBarButton = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: nil)
+        navigationItem.rightBarButtonItem = mapBarButton
     }
     
     private func setupTableView() {
-//        tableView
-//            .rx.setDelegate(self)
-//            .disposed(by: disposeBag)
         registerCells()
         setupDataSource()
         bindViewModel()
@@ -78,6 +79,7 @@ class VehiclesListController: UIViewController, DisposableProtocol, BindableProt
     func bindViewModel() {
         bindDataSource()
         bindSelected()
+        bindNavigationBar()
     }
     
     private func bindDataSource() {
@@ -92,9 +94,19 @@ class VehiclesListController: UIViewController, DisposableProtocol, BindableProt
         tableView.rx.modelSelected(Vehicle.self)
             .asDriver()
             .drive(onNext: { [unowned self] vehicle in
-                print(vehicle.name)
-//                let coordinator = RecipeDetailsCoordinator(navigationController: self.navigationController, recipe: recipe)
-//                coordinator.start()
+                let coordinator = VehiclesMapCoordinator(vehicles: [vehicle], navigationController: self.navigationController)
+                coordinator.start()
+            })
+            .disposed(by: disposeBag)
+    }
+    
+    private func bindNavigationBar() {
+        mapBarButton?.rx.tap
+            .asDriver()
+            .map{ [unowned self] in self.viewModel?.dataSource }
+            .drive(onNext: { [unowned self] list in
+                let coordinator = VehiclesMapCoordinator(vehicles: list?.value, navigationController: self.navigationController)
+                coordinator.start()
             })
             .disposed(by: disposeBag)
     }

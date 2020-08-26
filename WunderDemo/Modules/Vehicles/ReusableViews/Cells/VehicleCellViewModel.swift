@@ -20,12 +20,12 @@ final class VehicleCellViewModel {
     
     init(vehicle: Vehicle) {
         self.vehicle = vehicle
-        name = .just(vehicle.name)
-        fuel = .just("Fuel level: \(vehicle.fuel)")
-        address = .just("Address: \(vehicle.fuel)")
-        engineType = .just("Engine: \(vehicle.engineType)")
-        exterior = .just("Exterior Condition: \(vehicle.exterior)")
-        interior = .just("Interior Condition: \(vehicle.interior)")
+        name = .just("🚗: \(vehicle.name)")
+        fuel = .just("⛽️: \(vehicle.fuel) %")
+        address = .just("📪: \(vehicle.address)")
+        engineType = .just("🎰: \(vehicle.engineType)")
+        exterior = .just("🚗✨: \(vehicle.exterior)")
+        interior = .just("🛋✨: \(vehicle.interior)")
     }
     
 }
