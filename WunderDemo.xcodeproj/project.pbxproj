@@ -3,17 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		19FA9BAE24F5A0DC00D9B54A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BAD24F5A0DC00D9B54A /* AppDelegate.swift */; };
 		19FA9BB024F5A0DC00D9B54A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BAF24F5A0DC00D9B54A /* SceneDelegate.swift */; };
-		19FA9BB224F5A0DC00D9B54A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BB124F5A0DC00D9B54A /* ViewController.swift */; };
-		19FA9BB524F5A0DC00D9B54A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FA9BB324F5A0DC00D9B54A /* Main.storyboard */; };
 		19FA9BB724F5A0E100D9B54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FA9BB624F5A0E100D9B54A /* Assets.xcassets */; };
 		19FA9BBA24F5A0E100D9B54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FA9BB824F5A0E100D9B54A /* LaunchScreen.storyboard */; };
 		19FA9BC524F5A0E100D9B54A /* WunderDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BC424F5A0E100D9B54A /* WunderDemoTests.swift */; };
+		19FA9BD124F5A2F500D9B54A /* Interior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD024F5A2F500D9B54A /* Interior.swift */; };
+		19FA9BD324F5A33400D9B54A /* EngineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD224F5A33400D9B54A /* EngineType.swift */; };
+		19FA9BD524F5A36900D9B54A /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD424F5A36900D9B54A /* Vehicle.swift */; };
+		19FA9BD724F5A3D100D9B54A /* VehicleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD624F5A3D100D9B54A /* VehicleResponse.swift */; };
+		19FA9BDA24F5A4DB00D9B54A /* GenericService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD924F5A4DB00D9B54A /* GenericService.swift */; };
+		19FA9BE024F5A65B00D9B54A /* VehicleBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BDF24F5A65B00D9B54A /* VehicleBaseService.swift */; };
+		19FA9BE224F5A66F00D9B54A /* VehicleServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BE124F5A66F00D9B54A /* VehicleServiceProtocol.swift */; };
+		19FA9BE424F5A83700D9B54A /* VehicleNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BE324F5A83700D9B54A /* VehicleNetworkService.swift */; };
+		19FA9BE724F5A9C300D9B54A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BE624F5A9C300D9B54A /* AppCoordinator.swift */; };
+		19FA9BEA24F5AC9600D9B54A /* VehiclesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BE924F5AC9600D9B54A /* VehiclesListViewModel.swift */; };
+		19FA9BED24F5AE4E00D9B54A /* VehiclesListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BEB24F5AE4E00D9B54A /* VehiclesListController.swift */; };
+		19FA9BEE24F5AE4E00D9B54A /* VehiclesListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19FA9BEC24F5AE4E00D9B54A /* VehiclesListController.xib */; };
+		19FA9BF124F5AF4000D9B54A /* NibIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BF024F5AF4000D9B54A /* NibIdentifiable.swift */; };
+		19FA9BF324F5AF5A00D9B54A /* ClassIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BF224F5AF5A00D9B54A /* ClassIdentifiable.swift */; };
+		19FA9BF724F5AFAF00D9B54A /* VehicleCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BF624F5AFAF00D9B54A /* VehicleCellViewModel.swift */; };
+		19FA9BFA24F65C5200D9B54A /* VehicleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BF824F65C5200D9B54A /* VehicleCell.swift */; };
+		19FA9BFB24F65C5200D9B54A /* VehicleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19FA9BF924F65C5200D9B54A /* VehicleCell.xib */; };
+		19FA9BFF24F65C8700D9B54A /* DisposableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BFE24F65C8700D9B54A /* DisposableProtocol.swift */; };
+		19FA9C0124F65CA600D9B54A /* BindableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9C0024F65CA600D9B54A /* BindableProtocol.swift */; };
+		19FA9C0424F662CE00D9B54A /* UITableView+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9C0324F662CE00D9B54A /* UITableView+Extentions.swift */; };
+		19FA9C0824F6800400D9B54A /* VehiclesMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9C0624F6800400D9B54A /* VehiclesMapController.swift */; };
+		19FA9C0924F6800400D9B54A /* VehiclesMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19FA9C0724F6800400D9B54A /* VehiclesMapController.xib */; };
+		19FA9C0B24F6801A00D9B54A /* VehiclesMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9C0A24F6801A00D9B54A /* VehiclesMapViewModel.swift */; };
+		A8E3AE7FACCF74F18CA6869C /* Pods_WunderDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1914957A17EA4DA9DCFB9F07 /* Pods_WunderDemoTests.framework */; };
+		FA90D2A81B07F54E7897C876 /* Pods_WunderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4A852CB1F061125842D2EA /* Pods_WunderDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +50,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CEA90B235CECB32692216FE /* Pods-WunderDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-WunderDemoTests/Pods-WunderDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1914957A17EA4DA9DCFB9F07 /* Pods_WunderDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FA9BAA24F5A0DC00D9B54A /* WunderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WunderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FA9BAD24F5A0DC00D9B54A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19FA9BAF24F5A0DC00D9B54A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		19FA9BB124F5A0DC00D9B54A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19FA9BB424F5A0DC00D9B54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19FA9BB624F5A0E100D9B54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19FA9BB924F5A0E100D9B54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19FA9BBB24F5A0E100D9B54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19FA9BC024F5A0E100D9B54A /* WunderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FA9BC424F5A0E100D9B54A /* WunderDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderDemoTests.swift; sourceTree = "<group>"; };
 		19FA9BC624F5A0E100D9B54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19FA9BD024F5A2F500D9B54A /* Interior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interior.swift; sourceTree = "<group>"; };
+		19FA9BD224F5A33400D9B54A /* EngineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineType.swift; sourceTree = "<group>"; };
+		19FA9BD424F5A36900D9B54A /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		19FA9BD624F5A3D100D9B54A /* VehicleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleResponse.swift; sourceTree = "<group>"; };
+		19FA9BD924F5A4DB00D9B54A /* GenericService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericService.swift; sourceTree = "<group>"; };
+		19FA9BDF24F5A65B00D9B54A /* VehicleBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleBaseService.swift; sourceTree = "<group>"; };
+		19FA9BE124F5A66F00D9B54A /* VehicleServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleServiceProtocol.swift; sourceTree = "<group>"; };
+		19FA9BE324F5A83700D9B54A /* VehicleNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleNetworkService.swift; sourceTree = "<group>"; };
+		19FA9BE624F5A9C300D9B54A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		19FA9BE924F5AC9600D9B54A /* VehiclesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesListViewModel.swift; sourceTree = "<group>"; };
+		19FA9BEB24F5AE4E00D9B54A /* VehiclesListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesListController.swift; sourceTree = "<group>"; };
+		19FA9BEC24F5AE4E00D9B54A /* VehiclesListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehiclesListController.xib; sourceTree = "<group>"; };
+		19FA9BF024F5AF4000D9B54A /* NibIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibIdentifiable.swift; sourceTree = "<group>"; };
+		19FA9BF224F5AF5A00D9B54A /* ClassIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassIdentifiable.swift; sourceTree = "<group>"; };
+		19FA9BF624F5AFAF00D9B54A /* VehicleCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCellViewModel.swift; sourceTree = "<group>"; };
+		19FA9BF824F65C5200D9B54A /* VehicleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCell.swift; sourceTree = "<group>"; };
+		19FA9BF924F65C5200D9B54A /* VehicleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleCell.xib; sourceTree = "<group>"; };
+		19FA9BFE24F65C8700D9B54A /* DisposableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposableProtocol.swift; sourceTree = "<group>"; };
+		19FA9C0024F65CA600D9B54A /* BindableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableProtocol.swift; sourceTree = "<group>"; };
+		19FA9C0324F662CE00D9B54A /* UITableView+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extentions.swift"; sourceTree = "<group>"; };
+		19FA9C0624F6800400D9B54A /* VehiclesMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesMapController.swift; sourceTree = "<group>"; };
+		19FA9C0724F6800400D9B54A /* VehiclesMapController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehiclesMapController.xib; sourceTree = "<group>"; };
+		19FA9C0A24F6801A00D9B54A /* VehiclesMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesMapViewModel.swift; sourceTree = "<group>"; };
+		2B2300640963D84438056FAA /* Pods-WunderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderDemo.release.xcconfig"; path = "Target Support Files/Pods-WunderDemo/Pods-WunderDemo.release.xcconfig"; sourceTree = "<group>"; };
+		76D9A8D525479ACA3CE9E86E /* Pods-WunderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderDemo.debug.xcconfig"; path = "Target Support Files/Pods-WunderDemo/Pods-WunderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BF4A852CB1F061125842D2EA /* Pods_WunderDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C5742706774E80F031311F /* Pods-WunderDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderDemoTests.release.xcconfig"; path = "Target Support Files/Pods-WunderDemoTests/Pods-WunderDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA90D2A81B07F54E7897C876 /* Pods_WunderDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E3AE7FACCF74F18CA6869C /* Pods_WunderDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +116,8 @@
 				19FA9BAC24F5A0DC00D9B54A /* WunderDemo */,
 				19FA9BC324F5A0E100D9B54A /* WunderDemoTests */,
 				19FA9BAB24F5A0DC00D9B54A /* Products */,
+				6B94A4054E0683026AE5D5CC /* Pods */,
+				62A83E39BD3D8EA4E998F980 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +133,15 @@
 		19FA9BAC24F5A0DC00D9B54A /* WunderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				19FA9C0224F662B500D9B54A /* Extentions */,
+				19FA9BFD24F65C7700D9B54A /* Protocols */,
+				19FA9BEF24F5AF2E00D9B54A /* Utilities */,
+				19FA9BE524F5A9A800D9B54A /* AppCoordinator */,
+				19FA9BDC24F5A60200D9B54A /* Modules */,
+				19FA9BD824F5A4B300D9B54A /* Services */,
+				19FA9BCF24F5A2B100D9B54A /* Models */,
 				19FA9BAD24F5A0DC00D9B54A /* AppDelegate.swift */,
 				19FA9BAF24F5A0DC00D9B54A /* SceneDelegate.swift */,
-				19FA9BB124F5A0DC00D9B54A /* ViewController.swift */,
-				19FA9BB324F5A0DC00D9B54A /* Main.storyboard */,
 				19FA9BB624F5A0E100D9B54A /* Assets.xcassets */,
 				19FA9BB824F5A0E100D9B54A /* LaunchScreen.storyboard */,
 				19FA9BBB24F5A0E100D9B54A /* Info.plist */,
@@ -99,6 +158,146 @@
 			path = WunderDemoTests;
 			sourceTree = "<group>";
 		};
+		19FA9BCF24F5A2B100D9B54A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9BD024F5A2F500D9B54A /* Interior.swift */,
+				19FA9BD224F5A33400D9B54A /* EngineType.swift */,
+				19FA9BD424F5A36900D9B54A /* Vehicle.swift */,
+				19FA9BD624F5A3D100D9B54A /* VehicleResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		19FA9BD824F5A4B300D9B54A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9BD924F5A4DB00D9B54A /* GenericService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		19FA9BDC24F5A60200D9B54A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9BDD24F5A63700D9B54A /* Vehicles */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		19FA9BDD24F5A63700D9B54A /* Vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9C0524F67FDC00D9B54A /* VehiclesMap */,
+				19FA9BF424F5AF8B00D9B54A /* ReusableViews */,
+				19FA9BE824F5AC0900D9B54A /* VehiclesList */,
+				19FA9BDE24F5A64100D9B54A /* Services */,
+			);
+			path = Vehicles;
+			sourceTree = "<group>";
+		};
+		19FA9BDE24F5A64100D9B54A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9BDF24F5A65B00D9B54A /* VehicleBaseService.swift */,
+				19FA9BE124F5A66F00D9B54A /* VehicleServiceProtocol.swift */,
+				19FA9BE324F5A83700D9B54A /* VehicleNetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		19FA9BE524F5A9A800D9B54A /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9BE624F5A9C300D9B54A /* AppCoordinator.swift */,
+			);
+			path = AppCoordinator;
+			sourceTree = "<group>";
+		};
+		19FA9BE824F5AC0900D9B54A /* VehiclesList */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9BE924F5AC9600D9B54A /* VehiclesListViewModel.swift */,
+				19FA9BEB24F5AE4E00D9B54A /* VehiclesListController.swift */,
+				19FA9BEC24F5AE4E00D9B54A /* VehiclesListController.xib */,
+			);
+			path = VehiclesList;
+			sourceTree = "<group>";
+		};
+		19FA9BEF24F5AF2E00D9B54A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9BF024F5AF4000D9B54A /* NibIdentifiable.swift */,
+				19FA9BF224F5AF5A00D9B54A /* ClassIdentifiable.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		19FA9BF424F5AF8B00D9B54A /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9BF524F5AF9700D9B54A /* Cells */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		19FA9BF524F5AF9700D9B54A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9BF624F5AFAF00D9B54A /* VehicleCellViewModel.swift */,
+				19FA9BF824F65C5200D9B54A /* VehicleCell.swift */,
+				19FA9BF924F65C5200D9B54A /* VehicleCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		19FA9BFD24F65C7700D9B54A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9BFE24F65C8700D9B54A /* DisposableProtocol.swift */,
+				19FA9C0024F65CA600D9B54A /* BindableProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		19FA9C0224F662B500D9B54A /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9C0324F662CE00D9B54A /* UITableView+Extentions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		19FA9C0524F67FDC00D9B54A /* VehiclesMap */ = {
+			isa = PBXGroup;
+			children = (
+				19FA9C0624F6800400D9B54A /* VehiclesMapController.swift */,
+				19FA9C0724F6800400D9B54A /* VehiclesMapController.xib */,
+				19FA9C0A24F6801A00D9B54A /* VehiclesMapViewModel.swift */,
+			);
+			path = VehiclesMap;
+			sourceTree = "<group>";
+		};
+		62A83E39BD3D8EA4E998F980 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF4A852CB1F061125842D2EA /* Pods_WunderDemo.framework */,
+				1914957A17EA4DA9DCFB9F07 /* Pods_WunderDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B94A4054E0683026AE5D5CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76D9A8D525479ACA3CE9E86E /* Pods-WunderDemo.debug.xcconfig */,
+				2B2300640963D84438056FAA /* Pods-WunderDemo.release.xcconfig */,
+				0CEA90B235CECB32692216FE /* Pods-WunderDemoTests.debug.xcconfig */,
+				C6C5742706774E80F031311F /* Pods-WunderDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19FA9BC924F5A0E100D9B54A /* Build configuration list for PBXNativeTarget "WunderDemo" */;
 			buildPhases = (
+				5D7036FD28A28E8FABC3FA34 /* [CP] Check Pods Manifest.lock */,
 				19FA9BA624F5A0DC00D9B54A /* Sources */,
 				19FA9BA724F5A0DC00D9B54A /* Frameworks */,
 				19FA9BA824F5A0DC00D9B54A /* Resources */,
+				651CD6CDE2FC3D790042C8AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19FA9BCC24F5A0E100D9B54A /* Build configuration list for PBXNativeTarget "WunderDemoTests" */;
 			buildPhases = (
+				EBF3F70824168204B28C0AEE /* [CP] Check Pods Manifest.lock */,
 				19FA9BBC24F5A0E100D9B54A /* Sources */,
 				19FA9BBD24F5A0E100D9B54A /* Frameworks */,
 				19FA9BBE24F5A0E100D9B54A /* Resources */,
@@ -180,9 +382,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FA9C0924F6800400D9B54A /* VehiclesMapController.xib in Resources */,
+				19FA9BFB24F65C5200D9B54A /* VehicleCell.xib in Resources */,
+				19FA9BEE24F5AE4E00D9B54A /* VehiclesListController.xib in Resources */,
 				19FA9BBA24F5A0E100D9B54A /* LaunchScreen.storyboard in Resources */,
 				19FA9BB724F5A0E100D9B54A /* Assets.xcassets in Resources */,
-				19FA9BB524F5A0DC00D9B54A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +399,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D7036FD28A28E8FABC3FA34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WunderDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		651CD6CDE2FC3D790042C8AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WunderDemo/Pods-WunderDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WunderDemo/Pods-WunderDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WunderDemo/Pods-WunderDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBF3F70824168204B28C0AEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WunderDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19FA9BA624F5A0DC00D9B54A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19FA9BB224F5A0DC00D9B54A /* ViewController.swift in Sources */,
+				19FA9C0824F6800400D9B54A /* VehiclesMapController.swift in Sources */,
+				19FA9C0424F662CE00D9B54A /* UITableView+Extentions.swift in Sources */,
+				19FA9BE724F5A9C300D9B54A /* AppCoordinator.swift in Sources */,
+				19FA9BF724F5AFAF00D9B54A /* VehicleCellViewModel.swift in Sources */,
+				19FA9BF124F5AF4000D9B54A /* NibIdentifiable.swift in Sources */,
+				19FA9BE224F5A66F00D9B54A /* VehicleServiceProtocol.swift in Sources */,
 				19FA9BAE24F5A0DC00D9B54A /* AppDelegate.swift in Sources */,
+				19FA9C0124F65CA600D9B54A /* BindableProtocol.swift in Sources */,
+				19FA9BD124F5A2F500D9B54A /* Interior.swift in Sources */,
+				19FA9BDA24F5A4DB00D9B54A /* GenericService.swift in Sources */,
+				19FA9BED24F5AE4E00D9B54A /* VehiclesListController.swift in Sources */,
 				19FA9BB024F5A0DC00D9B54A /* SceneDelegate.swift in Sources */,
+				19FA9BFF24F65C8700D9B54A /* DisposableProtocol.swift in Sources */,
+				19FA9BFA24F65C5200D9B54A /* VehicleCell.swift in Sources */,
+				19FA9C0B24F6801A00D9B54A /* VehiclesMapViewModel.swift in Sources */,
+				19FA9BE424F5A83700D9B54A /* VehicleNetworkService.swift in Sources */,
+				19FA9BF324F5AF5A00D9B54A /* ClassIdentifiable.swift in Sources */,
+				19FA9BD724F5A3D100D9B54A /* VehicleResponse.swift in Sources */,
+				19FA9BD524F5A36900D9B54A /* Vehicle.swift in Sources */,
+				19FA9BEA24F5AC9600D9B54A /* VehiclesListViewModel.swift in Sources */,
+				19FA9BD324F5A33400D9B54A /* EngineType.swift in Sources */,
+				19FA9BE024F5A65B00D9B54A /* VehicleBaseService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +512,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		19FA9BB324F5A0DC00D9B54A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19FA9BB424F5A0DC00D9B54A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		19FA9BB824F5A0E100D9B54A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,6 +639,7 @@
 		};
 		19FA9BCA24F5A0E100D9B54A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D9A8D525479ACA3CE9E86E /* Pods-WunderDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,12 +652,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.syntaxerror.WunderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		19FA9BCB24F5A0E100D9B54A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2300640963D84438056FAA /* Pods-WunderDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -390,12 +671,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.syntaxerror.WunderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		19FA9BCD24F5A0E100D9B54A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEA90B235CECB32692216FE /* Pods-WunderDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +700,7 @@
 		};
 		19FA9BCE24F5A0E100D9B54A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C5742706774E80F031311F /* Pods-WunderDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
