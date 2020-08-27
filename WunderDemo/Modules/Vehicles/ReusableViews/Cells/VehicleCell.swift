@@ -15,12 +15,12 @@ final class VehicleCell: UITableViewCell, ClassIdentifiable, NibIdentifiable, Di
     typealias ViewModelType = VehicleCellViewModel
     
     // MARK: - IBOutlets
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var fuelLabel: UILabel!
-    @IBOutlet weak var addressLabel: UILabel!
-    @IBOutlet weak var engineTypeLabel: UILabel!
-    @IBOutlet weak var interiorLabel: UILabel!
-    @IBOutlet weak var exteriorLabel: UILabel!
+    @IBOutlet weak var nameLabel: ThemableLabel!
+    @IBOutlet weak var fuelLabel: ThemableLabel!
+    @IBOutlet weak var addressLabel: ThemableLabel!
+    @IBOutlet weak var engineTypeLabel: ThemableLabel!
+    @IBOutlet weak var interiorLabel: ThemableLabel!
+    @IBOutlet weak var exteriorLabel: ThemableLabel!
     
     // MARK: - Properties
     var disposeBag: DisposeBag = DisposeBag()

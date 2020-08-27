@@ -13,6 +13,20 @@
 		194A72F824F6E752003046AF /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD424F5A36900D9B54A /* Vehicle.swift */; };
 		194A72F924F6E755003046AF /* VehicleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD624F5A3D100D9B54A /* VehicleResponse.swift */; };
 		194A72FB24F6E7D0003046AF /* VehiclesListMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 194A72FA24F6E7D0003046AF /* VehiclesListMock.json */; };
+		196B1FB024F7D99000AC2A51 /* ConstantKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1FAF24F7D99000AC2A51 /* ConstantKeys.swift */; };
+		196B1FB324F7D9EA00AC2A51 /* ThemableObjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1FB224F7D9EA00AC2A51 /* ThemableObjectType.swift */; };
+		196B1FB524F7DA1B00AC2A51 /* ObjectTextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1FB424F7DA1B00AC2A51 /* ObjectTextAlignment.swift */; };
+		196B1FB924F7DA5500AC2A51 /* ThemableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1FB824F7DA5500AC2A51 /* ThemableLabel.swift */; };
+		196B1FBB24F7DA7600AC2A51 /* ThemableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1FBA24F7DA7600AC2A51 /* ThemableObject.swift */; };
+		196B1FBE24F7DAB400AC2A51 /* ThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1FBD24F7DAB400AC2A51 /* ThemeStyle.swift */; };
+		196B1FC124F7DAF400AC2A51 /* TextScaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1FC024F7DAF400AC2A51 /* TextScaling.swift */; };
+		196B1FC324F7DB4200AC2A51 /* GradientStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1FC224F7DB4200AC2A51 /* GradientStyle.swift */; };
+		196B1FC524F7DB5F00AC2A51 /* ShadowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1FC424F7DB5F00AC2A51 /* ShadowStyle.swift */; };
+		196B1FC724F7DB7500AC2A51 /* BorderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1FC624F7DB7500AC2A51 /* BorderStyle.swift */; };
+		196B1FC924F7DBA700AC2A51 /* GradientDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1FC824F7DBA700AC2A51 /* GradientDirection.swift */; };
+		196B1FCB24F7DBCB00AC2A51 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1FCA24F7DBCB00AC2A51 /* Extensions.swift */; };
+		196B1FCD24F7DC0D00AC2A51 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1FCC24F7DC0D00AC2A51 /* ThemeManager.swift */; };
+		196B1FCF24F7DC7300AC2A51 /* ThemePropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 196B1FCE24F7DC7300AC2A51 /* ThemePropertyList.plist */; };
 		19D5E5F624F7BAC800E76273 /* AppCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5E5F524F7BAC800E76273 /* AppCoordinatorProtocol.swift */; };
 		19FA9BAE24F5A0DC00D9B54A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BAD24F5A0DC00D9B54A /* AppDelegate.swift */; };
 		19FA9BB024F5A0DC00D9B54A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BAF24F5A0DC00D9B54A /* SceneDelegate.swift */; };
@@ -60,6 +74,20 @@
 		194A72F124F6E5CA003046AF /* VehiclesListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesListViewModelTests.swift; sourceTree = "<group>"; };
 		194A72F624F6E71A003046AF /* VehicleMockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleMockService.swift; sourceTree = "<group>"; };
 		194A72FA24F6E7D0003046AF /* VehiclesListMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VehiclesListMock.json; sourceTree = "<group>"; };
+		196B1FAF24F7D99000AC2A51 /* ConstantKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantKeys.swift; sourceTree = "<group>"; };
+		196B1FB224F7D9EA00AC2A51 /* ThemableObjectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemableObjectType.swift; sourceTree = "<group>"; };
+		196B1FB424F7DA1B00AC2A51 /* ObjectTextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTextAlignment.swift; sourceTree = "<group>"; };
+		196B1FB824F7DA5500AC2A51 /* ThemableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemableLabel.swift; sourceTree = "<group>"; };
+		196B1FBA24F7DA7600AC2A51 /* ThemableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemableObject.swift; sourceTree = "<group>"; };
+		196B1FBD24F7DAB400AC2A51 /* ThemeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeStyle.swift; sourceTree = "<group>"; };
+		196B1FC024F7DAF400AC2A51 /* TextScaling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScaling.swift; sourceTree = "<group>"; };
+		196B1FC224F7DB4200AC2A51 /* GradientStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientStyle.swift; sourceTree = "<group>"; };
+		196B1FC424F7DB5F00AC2A51 /* ShadowStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowStyle.swift; sourceTree = "<group>"; };
+		196B1FC624F7DB7500AC2A51 /* BorderStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderStyle.swift; sourceTree = "<group>"; };
+		196B1FC824F7DBA700AC2A51 /* GradientDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientDirection.swift; sourceTree = "<group>"; };
+		196B1FCA24F7DBCB00AC2A51 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		196B1FCC24F7DC0D00AC2A51 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		196B1FCE24F7DC7300AC2A51 /* ThemePropertyList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ThemePropertyList.plist; sourceTree = "<group>"; };
 		19D5E5F524F7BAC800E76273 /* AppCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorProtocol.swift; sourceTree = "<group>"; };
 		19FA9BAA24F5A0DC00D9B54A /* WunderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WunderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FA9BAD24F5A0DC00D9B54A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +161,67 @@
 				194A72FA24F6E7D0003046AF /* VehiclesListMock.json */,
 			);
 			path = Vehicles;
+			sourceTree = "<group>";
+		};
+		196B1FAD24F7D96A00AC2A51 /* ThemeUtility */ = {
+			isa = PBXGroup;
+			children = (
+				196B1FBF24F7DAE600AC2A51 /* Models */,
+				196B1FBC24F7DAA700AC2A51 /* ThemeStyles */,
+				196B1FB724F7DA4500AC2A51 /* ThemableObjecs */,
+				196B1FB124F7D9D700AC2A51 /* Enums */,
+				196B1FAE24F7D97C00AC2A51 /* Constants */,
+				196B1FCA24F7DBCB00AC2A51 /* Extensions.swift */,
+				196B1FCC24F7DC0D00AC2A51 /* ThemeManager.swift */,
+				196B1FCE24F7DC7300AC2A51 /* ThemePropertyList.plist */,
+			);
+			path = ThemeUtility;
+			sourceTree = "<group>";
+		};
+		196B1FAE24F7D97C00AC2A51 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				196B1FAF24F7D99000AC2A51 /* ConstantKeys.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		196B1FB124F7D9D700AC2A51 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				196B1FB224F7D9EA00AC2A51 /* ThemableObjectType.swift */,
+				196B1FB424F7DA1B00AC2A51 /* ObjectTextAlignment.swift */,
+				196B1FC824F7DBA700AC2A51 /* GradientDirection.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		196B1FB724F7DA4500AC2A51 /* ThemableObjecs */ = {
+			isa = PBXGroup;
+			children = (
+				196B1FB824F7DA5500AC2A51 /* ThemableLabel.swift */,
+				196B1FBA24F7DA7600AC2A51 /* ThemableObject.swift */,
+			);
+			path = ThemableObjecs;
+			sourceTree = "<group>";
+		};
+		196B1FBC24F7DAA700AC2A51 /* ThemeStyles */ = {
+			isa = PBXGroup;
+			children = (
+				196B1FBD24F7DAB400AC2A51 /* ThemeStyle.swift */,
+			);
+			path = ThemeStyles;
+			sourceTree = "<group>";
+		};
+		196B1FBF24F7DAE600AC2A51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				196B1FC024F7DAF400AC2A51 /* TextScaling.swift */,
+				196B1FC224F7DB4200AC2A51 /* GradientStyle.swift */,
+				196B1FC424F7DB5F00AC2A51 /* ShadowStyle.swift */,
+				196B1FC624F7DB7500AC2A51 /* BorderStyle.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		19FA9BA124F5A0DC00D9B54A = {
@@ -251,6 +340,7 @@
 		19FA9BEF24F5AF2E00D9B54A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				196B1FAD24F7D96A00AC2A51 /* ThemeUtility */,
 				19FA9BF024F5AF4000D9B54A /* NibIdentifiable.swift */,
 				19FA9BF224F5AF5A00D9B54A /* ClassIdentifiable.swift */,
 			);
@@ -429,6 +519,7 @@
 				19FA9BEE24F5AE4E00D9B54A /* VehiclesListController.xib in Resources */,
 				19FA9BBA24F5A0E100D9B54A /* LaunchScreen.storyboard in Resources */,
 				19FA9BB724F5A0E100D9B54A /* Assets.xcassets in Resources */,
+				196B1FCF24F7DC7300AC2A51 /* ThemePropertyList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,9 +619,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				196B1FC124F7DAF400AC2A51 /* TextScaling.swift in Sources */,
 				19FA9C0824F6800400D9B54A /* VehiclesMapController.swift in Sources */,
 				19FA9C0424F662CE00D9B54A /* UITableView+Extentions.swift in Sources */,
+				196B1FC924F7DBA700AC2A51 /* GradientDirection.swift in Sources */,
 				19FA9BE724F5A9C300D9B54A /* AppCoordinator.swift in Sources */,
+				196B1FBE24F7DAB400AC2A51 /* ThemeStyle.swift in Sources */,
+				196B1FB524F7DA1B00AC2A51 /* ObjectTextAlignment.swift in Sources */,
 				19FA9BF724F5AFAF00D9B54A /* VehicleCellViewModel.swift in Sources */,
 				19FA9BF124F5AF4000D9B54A /* NibIdentifiable.swift in Sources */,
 				19FA9BE224F5A66F00D9B54A /* VehicleServiceProtocol.swift in Sources */,
@@ -543,12 +638,21 @@
 				19FA9BFA24F65C5200D9B54A /* VehicleCell.swift in Sources */,
 				19D5E5F624F7BAC800E76273 /* AppCoordinatorProtocol.swift in Sources */,
 				19FA9C0B24F6801A00D9B54A /* VehiclesMapViewModel.swift in Sources */,
+				196B1FC524F7DB5F00AC2A51 /* ShadowStyle.swift in Sources */,
 				19FA9BE424F5A83700D9B54A /* VehicleNetworkService.swift in Sources */,
+				196B1FB024F7D99000AC2A51 /* ConstantKeys.swift in Sources */,
+				196B1FBB24F7DA7600AC2A51 /* ThemableObject.swift in Sources */,
 				19FA9BF324F5AF5A00D9B54A /* ClassIdentifiable.swift in Sources */,
 				19FA9BD724F5A3D100D9B54A /* VehicleResponse.swift in Sources */,
+				196B1FB924F7DA5500AC2A51 /* ThemableLabel.swift in Sources */,
 				19FA9BD524F5A36900D9B54A /* Vehicle.swift in Sources */,
+				196B1FCD24F7DC0D00AC2A51 /* ThemeManager.swift in Sources */,
+				196B1FC324F7DB4200AC2A51 /* GradientStyle.swift in Sources */,
+				196B1FC724F7DB7500AC2A51 /* BorderStyle.swift in Sources */,
 				19FA9C0F24F699F200D9B54A /* VehiclesMapCoordinator.swift in Sources */,
 				19FA9BEA24F5AC9600D9B54A /* VehiclesListViewModel.swift in Sources */,
+				196B1FCB24F7DBCB00AC2A51 /* Extensions.swift in Sources */,
+				196B1FB324F7D9EA00AC2A51 /* ThemableObjectType.swift in Sources */,
 				19FA9C1124F6AB3D00D9B54A /* VehicleAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
