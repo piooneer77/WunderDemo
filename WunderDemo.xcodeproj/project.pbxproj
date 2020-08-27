@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		194A72F224F6E5CA003046AF /* VehiclesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194A72F124F6E5CA003046AF /* VehiclesListViewModelTests.swift */; };
+		194A72F324F6E671003046AF /* VehicleServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BE124F5A66F00D9B54A /* VehicleServiceProtocol.swift */; };
+		194A72F724F6E71A003046AF /* VehicleMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194A72F624F6E71A003046AF /* VehicleMockService.swift */; };
+		194A72F824F6E752003046AF /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD424F5A36900D9B54A /* Vehicle.swift */; };
+		194A72F924F6E755003046AF /* VehicleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD624F5A3D100D9B54A /* VehicleResponse.swift */; };
+		194A72FB24F6E7D0003046AF /* VehiclesListMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 194A72FA24F6E7D0003046AF /* VehiclesListMock.json */; };
+		19D5E5F624F7BAC800E76273 /* AppCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5E5F524F7BAC800E76273 /* AppCoordinatorProtocol.swift */; };
 		19FA9BAE24F5A0DC00D9B54A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BAD24F5A0DC00D9B54A /* AppDelegate.swift */; };
 		19FA9BB024F5A0DC00D9B54A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BAF24F5A0DC00D9B54A /* SceneDelegate.swift */; };
 		19FA9BB724F5A0E100D9B54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FA9BB624F5A0E100D9B54A /* Assets.xcassets */; };
 		19FA9BBA24F5A0E100D9B54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FA9BB824F5A0E100D9B54A /* LaunchScreen.storyboard */; };
-		19FA9BC524F5A0E100D9B54A /* WunderDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BC424F5A0E100D9B54A /* WunderDemoTests.swift */; };
-		19FA9BD124F5A2F500D9B54A /* Interior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD024F5A2F500D9B54A /* Interior.swift */; };
-		19FA9BD324F5A33400D9B54A /* EngineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD224F5A33400D9B54A /* EngineType.swift */; };
 		19FA9BD524F5A36900D9B54A /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD424F5A36900D9B54A /* Vehicle.swift */; };
 		19FA9BD724F5A3D100D9B54A /* VehicleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD624F5A3D100D9B54A /* VehicleResponse.swift */; };
 		19FA9BDA24F5A4DB00D9B54A /* GenericService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BD924F5A4DB00D9B54A /* GenericService.swift */; };
-		19FA9BE024F5A65B00D9B54A /* VehicleBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BDF24F5A65B00D9B54A /* VehicleBaseService.swift */; };
 		19FA9BE224F5A66F00D9B54A /* VehicleServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BE124F5A66F00D9B54A /* VehicleServiceProtocol.swift */; };
 		19FA9BE424F5A83700D9B54A /* VehicleNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BE324F5A83700D9B54A /* VehicleNetworkService.swift */; };
 		19FA9BE724F5A9C300D9B54A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA9BE624F5A9C300D9B54A /* AppCoordinator.swift */; };
@@ -54,6 +57,10 @@
 /* Begin PBXFileReference section */
 		0CEA90B235CECB32692216FE /* Pods-WunderDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-WunderDemoTests/Pods-WunderDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1914957A17EA4DA9DCFB9F07 /* Pods_WunderDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		194A72F124F6E5CA003046AF /* VehiclesListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesListViewModelTests.swift; sourceTree = "<group>"; };
+		194A72F624F6E71A003046AF /* VehicleMockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleMockService.swift; sourceTree = "<group>"; };
+		194A72FA24F6E7D0003046AF /* VehiclesListMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VehiclesListMock.json; sourceTree = "<group>"; };
+		19D5E5F524F7BAC800E76273 /* AppCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorProtocol.swift; sourceTree = "<group>"; };
 		19FA9BAA24F5A0DC00D9B54A /* WunderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WunderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FA9BAD24F5A0DC00D9B54A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19FA9BAF24F5A0DC00D9B54A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,14 +68,10 @@
 		19FA9BB924F5A0E100D9B54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19FA9BBB24F5A0E100D9B54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19FA9BC024F5A0E100D9B54A /* WunderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		19FA9BC424F5A0E100D9B54A /* WunderDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderDemoTests.swift; sourceTree = "<group>"; };
 		19FA9BC624F5A0E100D9B54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19FA9BD024F5A2F500D9B54A /* Interior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interior.swift; sourceTree = "<group>"; };
-		19FA9BD224F5A33400D9B54A /* EngineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineType.swift; sourceTree = "<group>"; };
 		19FA9BD424F5A36900D9B54A /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		19FA9BD624F5A3D100D9B54A /* VehicleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleResponse.swift; sourceTree = "<group>"; };
 		19FA9BD924F5A4DB00D9B54A /* GenericService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericService.swift; sourceTree = "<group>"; };
-		19FA9BDF24F5A65B00D9B54A /* VehicleBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleBaseService.swift; sourceTree = "<group>"; };
 		19FA9BE124F5A66F00D9B54A /* VehicleServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleServiceProtocol.swift; sourceTree = "<group>"; };
 		19FA9BE324F5A83700D9B54A /* VehicleNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleNetworkService.swift; sourceTree = "<group>"; };
 		19FA9BE624F5A9C300D9B54A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
@@ -114,6 +117,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		194A72F424F6E679003046AF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				194A72F524F6E67F003046AF /* Vehicles */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		194A72F524F6E67F003046AF /* Vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				194A72F124F6E5CA003046AF /* VehiclesListViewModelTests.swift */,
+				194A72F624F6E71A003046AF /* VehicleMockService.swift */,
+				194A72FA24F6E7D0003046AF /* VehiclesListMock.json */,
+			);
+			path = Vehicles;
+			sourceTree = "<group>";
+		};
 		19FA9BA124F5A0DC00D9B54A = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +160,6 @@
 			children = (
 				19FA9BDC24F5A60200D9B54A /* Modules */,
 				19FA9BD824F5A4B300D9B54A /* Services */,
-				19FA9BCF24F5A2B100D9B54A /* Models */,
 				19FA9C0224F662B500D9B54A /* Extentions */,
 				19FA9BFD24F65C7700D9B54A /* Protocols */,
 				19FA9BEF24F5AF2E00D9B54A /* Utilities */,
@@ -156,7 +176,7 @@
 		19FA9BC324F5A0E100D9B54A /* WunderDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				19FA9BC424F5A0E100D9B54A /* WunderDemoTests.swift */,
+				194A72F424F6E679003046AF /* Modules */,
 				19FA9BC624F5A0E100D9B54A /* Info.plist */,
 			);
 			path = WunderDemoTests;
@@ -165,8 +185,6 @@
 		19FA9BCF24F5A2B100D9B54A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				19FA9BD024F5A2F500D9B54A /* Interior.swift */,
-				19FA9BD224F5A33400D9B54A /* EngineType.swift */,
 				19FA9BD424F5A36900D9B54A /* Vehicle.swift */,
 				19FA9BD624F5A3D100D9B54A /* VehicleResponse.swift */,
 			);
@@ -192,6 +210,7 @@
 		19FA9BDD24F5A63700D9B54A /* Vehicles */ = {
 			isa = PBXGroup;
 			children = (
+				19FA9BCF24F5A2B100D9B54A /* Models */,
 				19FA9BDE24F5A64100D9B54A /* Services */,
 				19FA9BE824F5AC0900D9B54A /* VehiclesList */,
 				19FA9C0524F67FDC00D9B54A /* VehiclesMap */,
@@ -203,7 +222,6 @@
 		19FA9BDE24F5A64100D9B54A /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				19FA9BDF24F5A65B00D9B54A /* VehicleBaseService.swift */,
 				19FA9BE124F5A66F00D9B54A /* VehicleServiceProtocol.swift */,
 				19FA9BE324F5A83700D9B54A /* VehicleNetworkService.swift */,
 			);
@@ -215,6 +233,7 @@
 			children = (
 				19FA9BE624F5A9C300D9B54A /* AppCoordinator.swift */,
 				19FA9C0E24F699F200D9B54A /* VehiclesMapCoordinator.swift */,
+				19D5E5F524F7BAC800E76273 /* AppCoordinatorProtocol.swift */,
 			);
 			path = AppCoordinator;
 			sourceTree = "<group>";
@@ -350,6 +369,7 @@
 				19FA9BBC24F5A0E100D9B54A /* Sources */,
 				19FA9BBD24F5A0E100D9B54A /* Frameworks */,
 				19FA9BBE24F5A0E100D9B54A /* Resources */,
+				27A2F135D626F90ED156AF98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -416,12 +436,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194A72FB24F6E7D0003046AF /* VehiclesListMock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		27A2F135D626F90ED156AF98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WunderDemoTests/Pods-WunderDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WunderDemoTests/Pods-WunderDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WunderDemoTests/Pods-WunderDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5D7036FD28A28E8FABC3FA34 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -498,12 +536,12 @@
 				19FA9BE224F5A66F00D9B54A /* VehicleServiceProtocol.swift in Sources */,
 				19FA9BAE24F5A0DC00D9B54A /* AppDelegate.swift in Sources */,
 				19FA9C0124F65CA600D9B54A /* BindableProtocol.swift in Sources */,
-				19FA9BD124F5A2F500D9B54A /* Interior.swift in Sources */,
 				19FA9BDA24F5A4DB00D9B54A /* GenericService.swift in Sources */,
 				19FA9BED24F5AE4E00D9B54A /* VehiclesListController.swift in Sources */,
 				19FA9BB024F5A0DC00D9B54A /* SceneDelegate.swift in Sources */,
 				19FA9BFF24F65C8700D9B54A /* DisposableProtocol.swift in Sources */,
 				19FA9BFA24F65C5200D9B54A /* VehicleCell.swift in Sources */,
+				19D5E5F624F7BAC800E76273 /* AppCoordinatorProtocol.swift in Sources */,
 				19FA9C0B24F6801A00D9B54A /* VehiclesMapViewModel.swift in Sources */,
 				19FA9BE424F5A83700D9B54A /* VehicleNetworkService.swift in Sources */,
 				19FA9BF324F5AF5A00D9B54A /* ClassIdentifiable.swift in Sources */,
@@ -512,8 +550,6 @@
 				19FA9C0F24F699F200D9B54A /* VehiclesMapCoordinator.swift in Sources */,
 				19FA9BEA24F5AC9600D9B54A /* VehiclesListViewModel.swift in Sources */,
 				19FA9C1124F6AB3D00D9B54A /* VehicleAnnotation.swift in Sources */,
-				19FA9BD324F5A33400D9B54A /* EngineType.swift in Sources */,
-				19FA9BE024F5A65B00D9B54A /* VehicleBaseService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,7 +557,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19FA9BC524F5A0E100D9B54A /* WunderDemoTests.swift in Sources */,
+				194A72F324F6E671003046AF /* VehicleServiceProtocol.swift in Sources */,
+				194A72F224F6E5CA003046AF /* VehiclesListViewModelTests.swift in Sources */,
+				194A72F724F6E71A003046AF /* VehicleMockService.swift in Sources */,
+				194A72F924F6E755003046AF /* VehicleResponse.swift in Sources */,
+				194A72F824F6E752003046AF /* Vehicle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

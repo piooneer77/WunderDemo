@@ -10,7 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class VehicleCell: UITableViewCell, ClassIdentifiable, NibIdentifiable, DisposableProtocol, BindableProtocol {
+final class VehicleCell: UITableViewCell, ClassIdentifiable, NibIdentifiable, DisposableProtocol, BindableProtocol {
     
     typealias ViewModelType = VehicleCellViewModel
     
@@ -57,6 +57,5 @@ class VehicleCell: UITableViewCell, ClassIdentifiable, NibIdentifiable, Disposab
         viewModel?.exterior.asDriver()
             .drive(exteriorLabel.rx.text)
             .disposed(by: disposeBag)
-        
     }
 }

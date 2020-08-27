@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VehiclesMapCoordinator: AppCoordinatorProtocol {
+final class VehiclesMapCoordinator: AppCoordinatorProtocol {
     
     var childrenControllers: [UIViewController]?
     private let navigationController: UINavigationController?

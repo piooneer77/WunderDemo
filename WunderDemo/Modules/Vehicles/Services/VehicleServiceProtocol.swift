@@ -6,10 +6,6 @@
 //  Copyright © 2020 Karem Gohar. All rights reserved.
 //
 
-import RxSwift
-import RxCocoa
-
 protocol VehicleServiceProtocol {
-    associatedtype Response
-    func getVehiclesList() -> Observable<Response>
+    func getVehiclesList(completion: ((VehicleResponse?, Error?) -> Void)?)
 }

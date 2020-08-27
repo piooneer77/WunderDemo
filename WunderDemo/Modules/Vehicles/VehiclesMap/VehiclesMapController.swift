@@ -7,14 +7,14 @@
 //
 
 import UIKit
-import RxDataSources
-import RxSwift
-import RxCocoa
 import MapKit
 import CoreLocation
+import RxSwift
+import RxCocoa
+import RxDataSources
 import RxMKMapView
 
-class VehiclesMapController: UIViewController, DisposableProtocol, BindableProtocol, CLLocationManagerDelegate {
+final class VehiclesMapController: UIViewController, DisposableProtocol, BindableProtocol, CLLocationManagerDelegate {
     
     typealias ViewModelType = VehiclesMapViewModel
     

@@ -8,12 +8,7 @@
 
 import UIKit
 
-protocol AppCoordinatorProtocol {
-    var childrenControllers: [UIViewController]? { get }
-    func start()
-}
-
-class AppCoordinator: AppCoordinatorProtocol {
+final class AppCoordinator: AppCoordinatorProtocol {
     
     var childrenControllers: [UIViewController]?
     private let window: UIWindow?
@@ -23,9 +18,10 @@ class AppCoordinator: AppCoordinatorProtocol {
     }
     
     func start() {
-        let service = VehicleNetworkService<VehicleResponse>()
+        let service = VehicleNetworkService()
         let controller = VehiclesListController(viewModel: VehiclesListViewModel(service: service))
         let navigationController = UINavigationController(rootViewController: controller)
+        navigationController.navigationBar.prefersLargeTitles = true
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
     }

@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 import RxDataSources
 
-class VehiclesListController: UIViewController, DisposableProtocol, BindableProtocol {
+final class VehiclesListController: UIViewController, DisposableProtocol, BindableProtocol {
     
     typealias VehicleListSectionModel = SectionModel<String, Vehicle>
     typealias ViewModelType = VehiclesListViewModel

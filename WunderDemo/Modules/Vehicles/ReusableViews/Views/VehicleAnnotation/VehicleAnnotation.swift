@@ -8,7 +8,7 @@
 
 import MapKit
 
-class VehicleAnnotation: MKPointAnnotation {
+final class VehicleAnnotation: MKPointAnnotation {
     
     private var vehicle: Vehicle
     
